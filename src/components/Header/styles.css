@@ -1,0 +1,50 @@
+.heading {
+    background-color: rgb(1, 127, 255);
+    height: 46px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 30px;
+    color: #fff;
+
+}
+.heading__register,
+.heading__name-shop {
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 400;
+    padding-top: 12px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.heading__register {
+    cursor: pointer;
+}
+
+
+.account-btn {
+    position: relative;
+}
+
+.menu-account {
+    display: none;
+    height: 50px;
+    width: 100px;
+    position: absolute;
+    padding-top: 15px;
+    padding-left: 26px;
+    top: 100%;
+    right: 40%;
+    color: #000;
+    background-color: #fff;
+    font-size: 15px;
+    font-weight: 400;
+    box-sizing: border-box;
+    border-radius: 4px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    z-index: 1;
+}
+
+
+
