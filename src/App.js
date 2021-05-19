@@ -21,7 +21,9 @@ function App() {
     <div className="App">
       <Header />
       {isLogin ? <Animals /> : <>
-        <div className="message-login" onClick={handleClickOpenLoginForm}>Login an account here</div>
+        <div className="message-login" onClick={handleClickOpenLoginForm}>
+          Login an account here
+        </div>
       </>}
       
     </div>
